@@ -1,7 +1,7 @@
 Title: Variance, gradient, Jacobian and Hessian matrix 记忆
 Date: 2018-12-18
-Category: math
-Tags: math, SLAM
+Category: Math
+Tags: Math, SLAM
 
 Jacobian矩阵　用于一阶梯度下降法<br/>
 Hessian矩阵，用于二阶牛顿法<br/>

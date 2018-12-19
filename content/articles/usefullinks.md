@@ -1,6 +1,6 @@
 Title: 博客中markdown文本语法与数学符号
 Date: 2018-12-18
-Category: 
+Category: Other
 Tags:
 
 [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html)<br/>

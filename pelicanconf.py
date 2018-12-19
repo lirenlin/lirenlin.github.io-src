@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'lirenlin'
+AUTHOR = u'Nekoo'
 SITENAME = u'Yet another site'
 SITEURL = ''
 
@@ -33,5 +33,5 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ["render_math"]
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["images", "pdfs"]
 DEFAULT_DATE = 'fs'
