@@ -28,10 +28,13 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-#THEME = "pelican-themes/subtle"
 
+THEME = "pelican-themes/bootstrap2"
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ["render_math"]
 
 STATIC_PATHS = ["images", "pdfs"]
 DEFAULT_DATE = 'fs'
+
+PELICAN_COMMENT_SYSTEM = True
+PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author',)

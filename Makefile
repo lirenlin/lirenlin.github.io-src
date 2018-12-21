@@ -119,6 +119,7 @@ cf_upload: publish
 
 github: publish
 	if [ -z $(git -C $(OUTPUTDIR) status -s) ]; then \
+		git -C $(OUTPUTDIR) add . ; \
 		git -C $(OUTPUTDIR) commit -am "Generate Pelican site"; \
 		git -C $(OUTPUTDIR) push origin $(GITHUB_PAGES_BRANCH); \
 	fi
