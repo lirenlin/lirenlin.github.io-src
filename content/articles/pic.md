@@ -9,7 +9,7 @@ This won't scale the image
 ![Description for people who can't see the image]({filename}/images/neko.jpg "Neko")
 -->
 <figure>
-<img src="images/neko.jpg" alt="A cute cat" title="Neko" style="width:50%"/>
+<img src="images/neko.jpg" alt="A cute cat" title="Neko" style="max-width:100%;max-height:100%"/>
 <figcaption> Fig. Neko </figcaption>
 </figure>
 
@@ -17,7 +17,7 @@ This won't scale the image
 markdown自身的语法不支持图片大小的设置。
 ```html
 <figure>
-<img src="images/neko.jpg" alt="A cute cat" title="Neko" style="width:50%"/>
-<figcaption> Neko </figcaption>
+<img src="images/neko.jpg" alt="A cute cat" title="Neko" style="max-width:100%;max-height=100%"/>
+<figcaption> Fig. Neko </figcaption>
 </figure>
 ```
