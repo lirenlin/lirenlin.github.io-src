@@ -33,10 +33,10 @@ space defined by A. In another way, a given point x will be transformed into a
 point in space defined by A. You might also want this process to be reversible,
 so that you can recover x given b and system matrix A.
 
-* A defines the whole vector space $\mathbb {R}^n$, any point x in $\mathbb {R}^n has a unique mapping b
-* A defines a subspace in $\mathbb {R}^n$, multiple points in $\mathbb {R}^n will map to the same point in space constrained by A.
-* A defines a subspace in $\mathbb {R}^m$, point b in this subspace has a unique mapping x which is in $\mathbb {R}^m$. Points b which is not this subspace, however in $\mathbb{R}^m$, could not find any mapping points x
-* A defines a subspace in $\mathbb {R}^m$, point b in this subspace has more than one mapping x which is in $\mathbb {R}^m$. Points b which is not this subspace, however in $\mathbb{R}^m$, could not find any mapping points x
+* A defines the vector space $\mathbb {R}^n$, any point x in $\mathbb {R}^n$ has a unique mapping point b which is in $\mathbb {R}^n$.
+* A defines the vector space $\mathbb {R}^m$, a subspace in $\mathbb {R}^n$, multiple points in $\mathbb {R}^n will map to the same point in space constrained by A.
+* A defines a subspace in $\mathbb {R}^m$, point b in this subspace has a unique mapping x which is in $\mathbb {R}^n$. Point b which is not this subspace, however in $\mathbb{R}^m$, could not find any mapping points x.
+* A defines a subspace in $\mathbb {R}^m$, point b in this subspace has more than one mapping x which is in $\mathbb {R}^n$. Points b which is not this subspace, however in $\mathbb{R}^m$, could not find any mapping points x.
 
 
 [math.stackexchange: Importance of matrix rank](https://math.stackexchange.com/a/21107)  
