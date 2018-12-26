@@ -10,7 +10,7 @@ stehen
 stellen
 setzen
 legen
-wohen
+wohnen
 bleiben
 kommen
 gehen

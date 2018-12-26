@@ -30,6 +30,23 @@ die Kneipe **an der Ecke**
 
 das ist alles andere als schone. 这一点也不好看
 
+Wieder ist ein Jahr vergangen
+
+Das Bett stellst du am besten an die Wand gegenuber dem Fenster.
+
+Zu dieser Zeit ist er schon in ganz Europa bekannt.
+
+Wegen der Krankheit des Vaters blieb er zu Hause. (Dat.)
+
+# 与时间相关介词
+im Jahr  
+im Dezember  
+im August  
+im Ausland  
+am Freitag, Feiertag  
+am Abend  
+um 6 Uhr  
+
 # 简写
 j-n: jemanden, akkusativ  
 j-m: jemandem, dativ
