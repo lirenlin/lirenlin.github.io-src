@@ -15,5 +15,6 @@ machine learning: a survey" title="differentiation" style="max-width: 100%; max-
 
 
 参考:  
+[Ceres Derivatives](http://ceres-solver.org/derivatives.html)  
 [计算机求导的四种方式](https://toutiao.io/posts/a5qqmj/preview)  
 [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767)
