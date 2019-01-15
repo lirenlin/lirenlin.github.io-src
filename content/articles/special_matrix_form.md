@@ -53,7 +53,7 @@ orthogonal matrices, including especially:
 A symmetric matrix is a square matrix that is equal to its transpose. Formally,
 $$A^{T} = A$$
 A nxn symmetric matrix A not only has a nice structure, but it also satisfies
-the following:
+the following (can be diagonaized, S = QΛQT, S symmetric, Q orthogonal, Λ diagonal):
 
 * A has exactly n (not necessarily distinct) eigenvalues
 * There exists a set of n eigenvectors, one for each eigenvalue, that are mututally orthogonal.
@@ -70,6 +70,20 @@ Proof of eigenvalue properties of the real symmetric matrix[^2].
 
 > 从另一个角度理解矩阵就是：矩阵主对角线上的元素表示自身和自身的关系，其他位置的元素aij表示i位置和j位置元素之间的相互关系。那么好，特征值问题其实就是选取了一组很好的基，就把矩阵 i位置和j位置元素之间的相互关系消除了。而且因为是相似变换，并没有改变矩阵本身的特性。因此矩阵对角化才如此的重要！
 
+# similar matrix:
+* have same eigenvalues
+* matrices represent the same thing in different basis
+
+# projection matrix:
+In linear algebra and functional analysis, a projection is a linear
+transformation P from a vector space to itself such that $P^2 = P$. That is,
+whenever P is applied twice to any value, it gives the same
+result as if it were applied once (idempotent). It leaves its
+image unchanged.[1] Though abstract, this definition of
+"projection" formalizes and generalizes the idea of graphical
+projection. One can also consider the effect of a projection on
+a geometrical object by examining the effect of the projection
+on points in the object.
 
 [^1]:https://en.wikipedia.org/wiki/Orthogonal_matrix 
 [^2]: http://farside.ph.utexas.edu/teaching/336k/Newton/node66.html
