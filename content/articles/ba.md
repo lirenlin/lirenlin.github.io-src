@@ -104,13 +104,19 @@ $$X = X + \Delta X$$
 
 从李代数到Transform matrix的转换在《视觉slam十四讲》李代数章节讲的很清楚。
 
+so(3)李代数实际上由旋转向量组成，所以转换遵循Angle-Aix, Rotation matrix, Quaternion变换关系。
+
 # 代码备注
 Eigen库里面有大量的运算符重载，例如四元数表示的旋转可以直接与三维坐标想成得到旋转后的向量。
 在数学上是不行的。
+
+# 继续学习
+李群，李代数的数学意义，manifold tangent space目前还是不清楚。
 
 # 参考资料
 
 * 《视觉slam十四讲》  
 * [Visual SLAM Tutorial: Bundle Adjustment]({filename}/pdfs/Visual_SLAM_Tutorial_Bundle_Adjustment.pdf)  
 * [github source code fork](https://github.com/lirenlin/ba_demo_ceres)  
+* [李代数讲解](https://mp.weixin.qq.com/s/sVjy9kr-8qc9W9VN78JoDQ)
 
