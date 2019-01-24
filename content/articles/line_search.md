@@ -29,3 +29,4 @@ Guass-Newton method, 使用Jacobian matrix近似Hessian matrix $\mathbf {H} \app
 
 [Wiki: gradient descent](https://en.wikipedia.org/wiki/Gradient_descent)<br/>
 [【最优化】一文搞懂最速下降法](https://zhuanlan.zhihu.com/p/32709034)
+[知乎：非线性优化](https://zhuanlan.zhihu.com/p/33413665)
