@@ -25,7 +25,7 @@ $$\frac{1}{\eta} = \sum{p(z_t|x_t)\overline{bel}(x_t)dx_t}$$
 <img src="images/bayes-2.png" alt="Bayes" title="bayes" style="width:50%"/>
 
 <span style="color:red">
-同时，我们注意，我们的目的是计算$x_t$的后验概率，如果bel(xt)是任意分布，
+同时，我们注意，我们的目的是计算$x_t$的后验概率，如果$bel(x_t)$是任意分布，
 我们需要在$x_t$的所有可能取值点上，计算该取值的概率，这在计算上是难于实现的。
 </span>
 

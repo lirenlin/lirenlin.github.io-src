@@ -73,6 +73,12 @@ L-BFGS get around this by maintaining a low-rank approximation of the (inverse)
 Hessian which is better suited for ill-conditioned problems as well as saves
 computation and space required to implement second-order optimization.
 
+这里有一个知乎问答 [Hessian 矩阵的特征值有什么含义](https://www.zhihu.com/question/24623031)
+
+这个答案给出了一些有背景的回答：https://www.zhihu.com/question/24623031/answer/118562562
+steepest descent里面，可以使用Hessian范数，来求更新步长方向，也就是牛顿法。Hessian特征值差异大，所定义的空间椭圆空间长轴短轴比例越失调，相反，如果是一个球星空间，则各个方向一致, 这个时候收敛更快。
+
+
 
 # [uwaterloo: Numerical Analysis: ill conditioned matrices](https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/04LinearAlgebra/illconditioned/)
 [Wiki: numerical stability](https://en.wikipedia.org/wiki/Numerical_stability)

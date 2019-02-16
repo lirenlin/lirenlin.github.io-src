@@ -63,4 +63,5 @@ It describes the **tangent line/plane** over that point.
 [mathinsight: linear approximation multivariable](https://mathinsight.org/linear_approximation_multivariable) <br/>
 [mathinsight: derivative matrix](https://mathinsight.org/derivative_matrix) <br/>
 [Wiki: Gradient](https://en.wikipedia.org/wiki/Gradient) <br/>
+[为什么梯度反方向是函数值局部下降最快的方向](https://zhuanlan.zhihu.com/p/24913912)
 
