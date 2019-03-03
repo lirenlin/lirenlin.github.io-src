@@ -67,5 +67,26 @@ map to map
     Marginalization: 消原，或者局部更新，window
     outlier: 
 
+## Data association
+无论是在滤波方法，还是图优化方法中，都有一个假设，我们知道在一个位姿下，观测到的环境特征与之前特征的匹配。
+这是一个需要单独解决的问题，称作Data association。在图优化框架中，这部分属于前端工作。
+
+滤波模型，利用观测，对预测进行更新修正。图优化模型，利用观测，来建立顶点间的边，也就是约束。
+所以，这两种算法正确的前提是，对于观测误差计算中，用到的data association的正确性。
+
+Data association也就是解决这样一个问题：在某个位姿下，每一个观测到的数据，与之前的观测，或者与地图的对应关系。
+例如提供这样的一个信息： $c_{t}^{i} = j$， $i$-th 测量值观测到的是环境(map)中$j$个特征(landmark)
+
+这与位姿优化估计，地图建立是完全不同领域的问题，但是是一个SLAM系统稳定正确工作的重要前提。
+
+* raw data
+* feature based
+	* feature correspondences
+
+
+
+
+
+
 [^1]: http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam04-ekf-slam.pdf
 [^2]: http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam08-kf-wrapup.pdf
