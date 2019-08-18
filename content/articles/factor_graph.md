@@ -39,6 +39,8 @@ performance requirements
 * cache?
 
 * SIMD, vectorization, compiler的局限, library
+* multithreading
+* multi-threaded BLAS
 * 优化分层，先上层c/c++优化，再硬件优化，汇编优化
 * profiling, performance bottleneck
 
